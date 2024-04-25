@@ -12,5 +12,5 @@
  function  Nea_add_custom_css(){
     $css_url= esc_url( plugins_url( 'css/style.css', __FILE__ ));
 
-    echo "<style rel='stylesheet' href='{$css_url}'></style>";
+    echo "<link rel='stylesheet' href='{$css_url}'/>";
  }
