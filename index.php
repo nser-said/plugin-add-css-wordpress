@@ -7,10 +7,10 @@
  */
 
 
- add_action('wp_footer', 'Nea_add_custom_css' );
+ add_action('wp_heed', 'Nea_add_custom_css' );
 
  function  Nea_add_custom_css(){
-    $css_url=esc_url( plugins_url( 'main.js', __FILE__ ));
+    $css_url= esc_url( plugins_url( 'css/style.css', __FILE__ ));
 
-    echo " <style rel='stylesheet' href='{ $css_url}'></style>";
+    echo "<style rel='stylesheet' href='{$css_url}'></style>";
  }
