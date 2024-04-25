@@ -7,7 +7,7 @@
  */
 
 
- add_action('wp_heed', 'Nea_add_custom_css' );
+ add_action('wp_head', 'Nea_add_custom_css' );
 
  function  Nea_add_custom_css(){
     $css_url= esc_url( plugins_url( 'css/style.css', __FILE__ ));
